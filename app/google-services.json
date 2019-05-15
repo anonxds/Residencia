@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "741778479333",
+    "firebase_url": "https://formato-c8f84.firebaseio.com",
+    "project_id": "formato-c8f84",
+    "storage_bucket": "formato-c8f84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741778479333:android:45be528d27f354d8",
+        "android_client_info": {
+          "package_name": "com.example.residencia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741778479333-1ovume397g069ppfel7mmj7to5jttltp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.residencia",
+            "certificate_hash": "881377c35998a539458737018828e38100e21fcd"
+          }
+        },
+        {
+          "client_id": "741778479333-svf7h6ttft5tssr0m0l2fna8bbfjr275.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-flf0DzwNQ-yextdzf1J4OMQ5Aks13Ew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "741778479333-svf7h6ttft5tssr0m0l2fna8bbfjr275.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
