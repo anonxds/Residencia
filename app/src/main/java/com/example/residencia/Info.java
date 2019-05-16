@@ -91,7 +91,7 @@ public class Info {
     }
 
 
-    public Info(String id,String proyecto, String asesor, String nombre,String Apellido, String carrera, String correo, String empresa, int numero, int control, String tel) {
+    public Info(String id,String proyecto, String asesor, String nombre, String carrera, String correo, String empresa, int numero, int control, String tel) {
         this.id = id;
         this.proyecto = proyecto;
         this.asesor = asesor;
@@ -102,7 +102,7 @@ public class Info {
         this.numero = numero;
         this.control = control;
         this.tel = tel;
-        this.apellido = Apellido;
+
     }
 
     public int getNumero() {

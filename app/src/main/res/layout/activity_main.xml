@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:isScrollContainer="true"
     android:orientation="vertical"
+
     tools:context=".MainActivity">
 
     <ScrollView
@@ -20,66 +21,60 @@
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="Solicitud de residencia" />
-
-            <android.support.design.widget.TextInputLayout
-                android:id="@+id/txtproyecto"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:counterEnabled="true"
-                app:counterMaxLength="10">
-
-                <android.support.design.widget.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="Nombre del proyecto" />
-            </android.support.design.widget.TextInputLayout>
+                android:layout_height="match_parent"
+                android:text="Solicitud de residencia"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
 
             <android.support.design.widget.TextInputLayout
                 android:id="@+id/txtasesor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:counterEnabled="true"
-                app:counterMaxLength="15">
+               >
 
                 <android.support.design.widget.TextInputEditText
                     android:layout_width="match_parent"
+                    android:singleLine="true"
                     android:layout_height="wrap_content"
                     android:hint="Nombre del asesor" />
             </android.support.design.widget.TextInputLayout>
 
 
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txtproyecto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:counterEnabled="true"
 
+                app:counterMaxLength="30">
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nombre del proyecto"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
                 android:id="@+id/txtnombre"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:counterEnabled="true"
-                app:counterMaxLength="15">
+
+                >
 
                 <android.support.design.widget.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Nombre" />
+                    android:digits="abcdefghijklmnopqrstuvwxyzéáíóúñ ÑABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                    android:hint="Nombre Completo" />
             </android.support.design.widget.TextInputLayout>
 
 
-            <android.support.design.widget.TextInputLayout
-                android:id="@+id/txtapelldio"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:counterEnabled="true"
-                app:counterMaxLength="25">
 
-                <android.support.design.widget.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="Apellido" />
-            </android.support.design.widget.TextInputLayout>
 
 
             <android.support.design.widget.TextInputLayout
@@ -94,6 +89,7 @@
                     android:layout_height="wrap_content"
                     android:hint="No. control"
                     android:inputType="number"
+                    android:singleLine="true"
                     android:maxLength="8" />
             </android.support.design.widget.TextInputLayout>
 
@@ -103,12 +99,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:counterEnabled="true"
-                app:counterMaxLength="25">
+                app:counterMaxLength="50">
 
                 <android.support.design.widget.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Empresa" />
+                    android:hint="Empresa"
+                    android:singleLine="true"
+                    android:maxLength="50"/>
             </android.support.design.widget.TextInputLayout>
 
           <TextView
@@ -155,6 +153,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Correo"
+                    android:singleLine="true"
                     android:inputType="textEmailAddress" />
             </android.support.design.widget.TextInputLayout>
 
@@ -172,6 +171,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Telefono"
+                    android:singleLine="true"
                     android:inputType="phone" />
             </android.support.design.widget.TextInputLayout>
 
