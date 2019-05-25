@@ -50,13 +50,14 @@
                 android:layout_height="wrap_content"
                 app:counterEnabled="true"
 
-                app:counterMaxLength="30">
+                app:counterMaxLength="50">
 
                 <android.support.design.widget.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Nombre del proyecto"
-                    android:singleLine="true" />
+                    android:singleLine="true"
+                    android:maxLength="50"/>
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
@@ -125,11 +126,12 @@
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
                    android:text="Mecanica"/>
+
                <RadioButton
                    android:id="@+id/Electro"
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
-                   android:text="Electronomecanica"/>
+                   android:text="Electromecanica" />
                <RadioButton
                    android:id="@+id/Aero"
                    android:layout_width="match_parent"
